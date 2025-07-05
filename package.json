@@ -1,6 +1,5 @@
 {
-  "name": "bailwal-portfolio",
-  "homepage": "https://ShubhamBailwal.github.io/portfolio-website/",
+  "name": "portfolio-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,13 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
-    "node": "^22.17.0",
+    "@formspree/react": "^3.0.0",
+    "gsap": "^3.13.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
